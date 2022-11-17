@@ -1,0 +1,176 @@
+h1{
+    font-size: 50px;
+    line-height: 1;
+    padding: 50px 0;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+ul{
+    background-color: lightblue;
+    height: 50px ;
+    
+}
+  nav li{
+      display: inline;
+      padding: 15px;
+      float: left;
+      font-family: 'Verdana';
+  }
+
+  img{
+      width: 300px;
+      margin-right: auto;
+      display: block;
+  }
+
+  p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    width: 600px;
+    
+    
+  }
+/* home */
+  .container {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    row-gap: 15px;
+    justify-items: center;
+    align-items: center;
+    
+  }
+
+  .baby-image{ 
+    grid-column: 2 / 3;
+    grid-row: 2;
+    
+      } 
+
+  .overview{
+    grid-column: 2/3;
+    grid-row: 1;
+    
+  }
+
+  .about-image{
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+
+  .young-image{
+    grid-column: 2/3;
+    grid-row: 2;
+    
+    
+  }
+  .baby-image{
+    grid-column: 3/4;
+    grid-row: 2;
+  }
+  .headshot-image{
+    grid-column: 1/2;
+    grid-row: 3;
+  }
+  .birthday-image{
+    grid-column: 2/3;
+    grid-row: 3;
+  }
+  .camel-image{
+    grid-column: 3/4;
+    grid-row: 3;
+  }
+  .arcade-image{
+    grid-column: 1/2;
+    grid-row: 4;
+  }
+  .sam-image{
+    grid-column: 2/3;
+    grid-row: 4;
+  }
+  .skater-image{
+    grid-column: 3/4;
+    grid-row: 4;
+  }
+
+
+
+
+/* family life */
+  .carly-image{
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+
+  .old_fam-image{
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+  .tailgate-image{
+    grid-column: 3/4;
+    grid-row: 2;
+  }
+  .dad-image{
+    grid-column: 1/2;
+    grid-row: 3;
+  }
+  .maronis-image{
+    grid-column: 2/3;
+    grid-row: 3;
+  }
+  .oldmom-image{
+    grid-column: 3/4;
+    grid-row: 3;
+  }
+  .mom-image{
+    grid-column: 1/2;
+    grid-row: 4;
+  }
+  .siblings-image{
+    grid-column: 2/3;
+    grid-row: 4;
+  }
+  .carlyandsam-image{
+    grid-column: 3/4;
+    grid-row: 4;
+  }
+
+
+  /* student life */
+  .firstday-image{
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+
+  .umich-image{
+    grid-column: 2/3;
+    grid-row: 2;
+  }
+  .reach-image{
+    grid-column: 3/4;
+    grid-row: 2;
+  }
+  .stadium-image{
+    grid-column: 1/2;
+    grid-row: 3;
+  }
+  .field-image{
+    grid-column: 2/3;
+    grid-row: 3;
+  }
+  .osu-image{
+    grid-column: 3/4;
+    grid-row: 3;
+  }
+  .umsi-image{
+    grid-column: 1/2;
+    grid-row: 4;
+  }
+  .phouse-image{
+    grid-column: 2/3;
+    grid-row: 4;
+  }
+  .pinball-image{
+    grid-column: 3/4;
+    grid-row: 4;
+  }
