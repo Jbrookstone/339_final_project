@@ -6,6 +6,10 @@ body{
   display: none;
 }
 
+.bit3{
+  display: none;
+}
+
 .skip{
   left: 30%;
   position: absolute;
@@ -243,7 +247,9 @@ footer p{
    ;
  }
  
-
+ .bit3{
+  display: none;
+}
 
 
   .pics {
@@ -393,7 +399,9 @@ nav li a:hover{
     box-shadow: none;
   }
   
-
+  .bit3{
+    display: block;
+  }
 
 
 .header h1 {

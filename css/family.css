@@ -2,6 +2,9 @@ body{
     background-image: linear-gradient(rgb(149, 243, 255), white) ;
     width: 100%;}
 
+    .bit4{
+      display: none;
+    }
     .skip{
         left: 30%;
         position: absolute;
@@ -150,6 +153,11 @@ main img{
 }
 
 @media screen and (min-width: 750px){
+
+  .bit4{
+    display: none;
+  }
+
   ul{
     list-style-type: none;
     margin: 5px;
@@ -198,6 +206,21 @@ nav li a:hover{
 }
 
 @media screen and (min-width: 900px){
+
+  
+  .topimage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    
+  }
+
+  .bit4{
+    display: block;
+    grid-column: 2/3;
+    justify-items: center;
+  }
     ul{
         list-style-type: none;
         margin: 5px;
