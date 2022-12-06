@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="images/logo-drk.png" />
-    <!-- <link rel="stylesheet" type="text/css" href="css/html5reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <title>Jordan Brookstone</title>
@@ -14,28 +14,33 @@
     <header>
       <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="student.html">Student Life</a></li>
             <li><a href="family.html">Family Life</a></li>
           </ul>
         </nav>
     </header>
     <main class="container" id = "main">
-      <div class = overview>
-
+      <div class = "overview">
+        <div class="bit-image-2" id="bit">
+          <img src="images/transparentbit.png" alt="bitmoji" style="width:200px;height:200px">
+        </div>
         <h1>Jordan Brookstone</h1>
-        <p>Hi, I'm Jordan -- a junior at the University of Michigan (go blue!) studying User Experience Design with a certificate in Marketing and Sales from the Ross School of Business. I love meeting new people, working on a team, and brainstorming out of the box ideas!</p>
+        <p>Hi, I'm Jordan -- a junior at the University of Michigan (Go Blue)! I am studying User Experience Design with a certificate in Marketing and Sales from the Ross School of Business. I love meeting new people, working on a team, and brainstorming out of the box ideas!</p>
+        <p id= "two">Hover over the pictures below to find out more!</p>
       </div>
 
       
+
+<div class="pics"> 
       <div class="about-image" id="about">
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
-              <img src="images/about_2.jpg" alt="Paris" style="width:300px;height:200px">
+              <img src="images/about_2.jpg" alt="about" style="width:300px;height:200px">
             </div>
             <div class="flip-box-back">
-              <h2>Headshot 2022</h2>
+              <h3>Headshot 2022</h3>
             </div>
           </div>
         </div> 
@@ -45,10 +50,10 @@
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
-              <img src="images/young_self.jpg" alt="Paris" style="width:300px;height:200px">
+              <img src="images/young_self.jpg" alt="young self" style="width:300px;height:200px">
             </div>
             <div class="flip-box-back">
-              <h2>Age 7</h2>
+              <h3>Age 7</h3>
             </div>
           </div>
         </div> 
@@ -58,10 +63,10 @@
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
-              <img src="images/baby.jpg" alt="Paris" style="width:300px;height:200px">
+              <img src="images/baby.jpg" alt="baby picture" style="width:300px;height:200px">
             </div>
             <div class="flip-box-back">
-              <h2>Age 4</h2>
+              <h3>Age 4</h3>
             </div>
           </div>
         </div> 
@@ -71,10 +76,10 @@
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
-              <img src="images/headshot.jpg" alt="Paris" style="width:300px;height:200px">
+              <img src="images/headshot.jpg" alt="headshot" style="width:300px;height:200px">
             </div>
             <div class="flip-box-back">
-              <h2>Headshot 2021</h2>
+              <h3>Headshot 2021</h3>
             </div>
           </div>
         </div> 
@@ -84,11 +89,11 @@
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
-              <img src="images/birthday.jpg" alt="Paris" style="width:300px;height:200px">
+              <img src="images/birthday.jpg" alt="birthday" style="width:300px;height:200px">
             </div>
             <div class="flip-box-back">
-              <h2>20th Birthday!</h2>
-              <h3>November 7th, 2022</h3>
+              <h3>20th Birthday!</h3>
+              <h4>November 7th, 2022</h4>
             </div>
           </div>
         </div> 
@@ -98,10 +103,11 @@
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
-              <img src="images/camel.jpg" alt="Paris" style="width:300px;height:200px">
+              <img src="images/camel.jpg" alt="camel" style="width:300px;height:200px">
             </div>
             <div class="flip-box-back">
-              <h2>Camel Riding in Israel</h2>
+              <h3>Camel Riding in Israel</h3>
+              <h4>May 2022</h4>
             </div>
           </div>
         </div> 
@@ -112,10 +118,10 @@
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
-              <img src="images/arcade.jpg" alt="Paris" style="width:300px;height:200px">
+              <img src="images/arcade.jpg" alt="arcade" style="width:300px;height:200px">
             </div>
             <div class="flip-box-back">
-              <h2>Playing Pinball at Pinball Pete's</h2>
+              <h3>Playing Pinball at Pinball Pete's</h3>
             </div>
           </div>
         </div> 
@@ -127,11 +133,11 @@
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
-              <img src="images/me_and_sam.jpg" alt="Paris" style="width:300px;height:200px">
+              <img src="images/me_and_sam.jpg" alt="me and dog" style="width:300px;height:200px">
             </div>
             <div class="flip-box-back">
-              <h2>Me and my dog, Sam</h2>
-              <h3>He is a husky/shepard mix</h3>
+              <h3>Me and my dog, Sam</h3>
+              <h4>He is a husky/shepard mix</h4>
             </div>
           </div>
         </div> 
@@ -142,18 +148,22 @@
         <div class="flip-box">
           <div class="flip-box-inner">
             <div class="flip-box-front">
-              <img src="images/figure_skater.jpg" alt="Paris" style="width:300px;height:200px">
+              <img src="images/figure_skater.jpg" alt="figure skater" style="width:300px;height:200px">
             </div>
             <div class="flip-box-back">
-              <h2>Figure Skating Competition at Age 9</h2>
+              <h3> Age 9</h3>
+              <h4>Figure Skating Competition</h4>
             </div>
           </div>
         </div> 
       </div>
+    </div>
+
+   
   </main>
     <footer>
       <p>Jordan Brookstone | University of Michigan Class of 2024 <br/>
-        &copy; jbrookst@umich.edu</p>
+         jbrookst@umich.edu</p>
     </footer>
   </body>
 </html>
